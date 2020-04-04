@@ -1,0 +1,3 @@
+C:\Users\Ronal\Documents\Waterloo Documents\Coding\repos\Pls Work Arduino\obj\Debug\netcoreapp3.1\Pls Work Arduino.csprojAssemblyReference.cache
+C:\Users\Ronal\Documents\Waterloo Documents\Coding\repos\Pls Work Arduino\obj\Debug\netcoreapp3.1\Pls Work Arduino.AssemblyInfoInputs.cache
+C:\Users\Ronal\Documents\Waterloo Documents\Coding\repos\Pls Work Arduino\obj\Debug\netcoreapp3.1\Pls Work Arduino.AssemblyInfo.cs

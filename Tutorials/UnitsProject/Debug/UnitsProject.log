@@ -1,0 +1,5 @@
+﻿  UnitsProject.cpp
+C:\Users\Ronal\source\repos\UnitsProject\UnitsProject.cpp(12,1): error C2084: function 'int main(void)' already has a body
+C:\Users\Ronal\source\repos\UnitsProject\UnitsProject.cpp(6): message : see previous definition of 'main'
+C:\Users\Ronal\source\repos\UnitsProject\UnitsProject.cpp(18,74): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\Ronal\source\repos\UnitsProject\UnitsProject.cpp(12): fatal error C1075: '{': no matching token found

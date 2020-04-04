@@ -1,0 +1,4 @@
+﻿  A4.cpp
+C:\Users\Ronal\source\repos\A4\A4.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Ronal\source\repos\A4\A4.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  A4.vcxproj -> C:\Users\Ronal\source\repos\A4\Debug\A4.exe

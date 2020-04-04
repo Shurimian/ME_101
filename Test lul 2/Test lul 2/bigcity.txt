@@ -1,0 +1,15 @@
+Brampton 593638
+Calgary 1239220
+Edmonton 932546
+Halifax 403131
+Hamilton 536917
+London 383822
+Markham 328966
+Mississauga 721599
+Montreal 1704694
+Ottawa 934243
+Quebec_City 531902
+Toronto 2731571
+Vancouver 631486
+Vaughan 306233
+Winnipeg 705224

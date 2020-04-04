@@ -1,0 +1,4 @@
+﻿  A6 Q2.cpp
+C:\Users\Ronal\source\repos\A6 Q2\A6 Q2.cpp(27,41): error C2065: 'M_PI': undeclared identifier
+C:\Users\Ronal\source\repos\A6 Q2\A6 Q2.cpp(31,21): error C2065: 'M_PI': undeclared identifier
+C:\Users\Ronal\source\repos\A6 Q2\A6 Q2.cpp(46,26): error C2065: 'M_PI': undeclared identifier

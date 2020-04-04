@@ -1,0 +1,8 @@
+﻿  Main.cpp
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(1787,22): error C2078: too many initializers
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(1788,21): error C2664: 'int votes(int [])': cannot convert argument 1 from 'int' to 'int []'
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(1788,20): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Ronal\source\repos\Test lul 2\Test lul 2\Main.cpp(1777,5): message : see declaration of 'votes'
