@@ -42,9 +42,9 @@ int main()
     ifstream moonSlopes{"moonSlopes.txt"};
     ifstream spaceJunk{"spaceJunk.txt"};
     ofstream landing{"landHere.txt"};
-    double curves[WIDTH][LENGTH];
-    double junkX[TOTAL_JUNK];
-    double junkY[TOTAL_JUNK];
+    double curves[WIDTH][LENGTH]{};
+    double junkX[TOTAL_JUNK]{};
+    double junkY[TOTAL_JUNK]{};
 
     storeData(moonSlopes, curves);
     storeJunk(spaceJunk, junkX, junkY);
@@ -57,9 +57,9 @@ int main()
         {
             for (int k{}; k < TOTAL_JUNK; ++k)
             {
-                if (fabs(curves[i - 1][j - 1]) < 0.5 && (i - (WIDTH / 2)) != junkX[k] && (j - (LENGTH / 2)) != junkY[k])
+                if (fabs(curves[i - 1][j - 1]) < 0.5 && (i - (WIDTH / 2)) != junkX[k] && ((LENGTH / 2) - j) != junkY[k])
                 {
-                    landing << setw(4) << (i - (WIDTH / 2)) << setw(4) << (j - (LENGTH / 2)) << '\n';
+                    landing << setw(4) << (i - (WIDTH / 2)) << setw(4) << ((LENGTH / 2) - j) << '\n';
                 }
             }
         }
