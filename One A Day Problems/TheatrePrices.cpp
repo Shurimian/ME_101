@@ -13,7 +13,7 @@ void output(ofstream &next, int price[ROW][COLUMN])
     {
         for (int column{}; column < COLUMN; ++column)
         {
-            next << "Seat: " << setw(3) << row + 1 << setw(3) << column + 1 << " Price: " << price[row][column] << '\n';
+            cout << "Seat: " << setw(3) << row + 1 << setw(3) << column + 1 << " Price: " << price[row][column] << '\n';
         }
     }
 }
