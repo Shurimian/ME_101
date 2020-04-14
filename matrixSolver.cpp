@@ -49,24 +49,22 @@ int main()
     cin >> symb;
 
     //2nd matrix for operations
+    int row2{};
+    int column2{};
     if (symb == '*')
     {
-        row = column;
+        row2 = column;
         cout << "Enter the columns in your 2nd matrix: ";
-        cin >> column;
-
-        int **array2{new int *[row]};
-
-        declare(row, column, array2);
-        initialize(row, column, array2);
+        cin >> column2;
     }
     else
     {
-        int **array2{new int *[row]};
-
-        declare(row, column, array2);
-        initialize(row, column, array2);
     }
+    
+    int **array2{new int *[row2]};
+
+    declare(row2, column2, array2);
+    initialize(row2, column2, array2);
 
     switch (symb)
     {
@@ -94,6 +92,7 @@ int main()
         }
         case '*':
         {
+            break;
         }
     }
 
